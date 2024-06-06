@@ -1,0 +1,12 @@
+name: pathformer
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+ - python = 3.9
+ - pip
+ - ipython
+ - jupyter
+ - matplotlib
+ - pip:
+   - -r requirements.txt
